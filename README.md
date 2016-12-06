@@ -1,5 +1,7 @@
 # autoreplytwitter
-This is a simple python codes to reply twitter user automatically
+This is a simple python codes to reply twitter user automatically.
+On this script, I use scraping to monitor the twitter pages, to bypass the low usage limit the twitter API has.
+Tweepy only used for replying the new tweet.
 
 Enter your usual tweepy requirement on auto.py,
 ```python
