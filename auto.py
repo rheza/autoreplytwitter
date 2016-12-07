@@ -36,7 +36,7 @@ def main():
   randomTweet = random.randrange(1,len(tweetText))
   api = get_api(cfg)
   tweet = "@" + twitterUsername + tweetText[randomTweet] + " " + str(randomNumber)
-  status = api.update_status(status=tweet)
+  status = api.update_status(status=tweet,in_reply_to_status_id=latestTweetId)
   print("Posted Tweet #"+str(randomNumber))
 
 
